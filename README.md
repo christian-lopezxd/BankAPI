@@ -24,7 +24,7 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
    
 ## Configuracion de la cadena de conexion
 Para este paso es recomendado utilizar [Microsoft Visual Studio 2022](https://visualstudio.microsoft.com/es/vs/)
-importar el proyecto a Visual Studio mediante el archivo BancoAtlantidaAPI.sln 
+importar el proyecto a Visual Studio mediante el archivo BankAPI.sln 
 
 Una vez abierto el proyecto deberemos de configurar el archivo appsettings.json para que nos permita hacer la conexión entre la base de datos y nuestra API
 
@@ -51,7 +51,7 @@ Finalmente cambiar **userPassword** por la respectiva contraseña del usuario qu
 ```
 
 ## Restaurar Paquetes NuGet
-*En la terminal segurarse de estar en la carpeta \Backend\BancoAtlantidaAPI>*
+*En la terminal segurarse de estar en la carpeta \Backend\BankAPI>*
 Dentro del proyecto abrir una terminal y ejecutar el siguiente comando:
 ```bash
 dotnet restore
